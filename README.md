@@ -38,10 +38,17 @@ bash run.sh
 
 ## Survival Prediction
 The code for Survival Prediction tasks.
+### Install Dependencies
+Before running downstream tasks, please install the required dependencies by:
+```bash
+cd survival
+pip install -r requirements.txt
+```
 
+### Run
 1. Organize your data into an excel file following the example `survival/splits/example.xlsx`
 2. Specify the hyper-parameters in `survival/run.sh`
-3. run by command
+3. run by command:
 ```bash
 cd survival
 bash run.sh
